@@ -60,6 +60,7 @@ main {
     width: 137px; 
     color: #ffffff;
     font-size: 18px;
+    border: none;
 }
 
 .big__title {
@@ -84,6 +85,7 @@ main {
     color: #191411;
     font-size: 18px;
     margin-top: 56px;
+    border: none;
 }
 
 .choice {
@@ -119,8 +121,11 @@ h2 {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
     color: #ffffff;
+}
+
+.card__info__mini {
+    align-items: center;
     text-align: center;
 }
 
@@ -146,24 +151,21 @@ h2 {
     justify-content: center;
     max-width: 384px;
     text-align: left;
-}
+    background-color: #211A16;
+    border-radius: 16px;
+    border: 1px solid #353535;
+    padding: 25px;
 
-.card__info__burger {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    color: #ffffff;
-    text-align: left;
 }
 
 .card__text__burger {
     font-size: 24px;
     font-weight: bold;
-    padding: 24px 0;
+    padding: 24px 0 0;
 }
 
 .card__text__about__burger {
     font-size: 16px;
     font-weight: 300;
+    text-align: left;
 }
