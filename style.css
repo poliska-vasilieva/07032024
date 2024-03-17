@@ -243,3 +243,13 @@ input::placeholder {
     color: #757575;
     padding-left: 10px;
 }
+
+footer {
+    height: 170px;
+    width: 100%;
+}
+
+.li__footer {
+    margin: 0;
+    color: #fff;
+}
