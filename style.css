@@ -105,8 +105,7 @@ h2 {
     flex-wrap: wrap;
     width: 100%;
     column-gap: 100px;
-    padding-top: 60px;
-    padding-bottom: 180px;
+    padding: 60px 180px;
 }
 
 .card {
@@ -141,7 +140,8 @@ h2 {
 }
 
 .cards__burger {
-    column-gap: 24px;
+    gap: 24px;
+    padding: 60px 150px;
 }
 
 .card__burger {
@@ -168,4 +168,78 @@ h2 {
     font-size: 16px;
     font-weight: 300;
     text-align: left;
+}
+
+.group {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 24px;
+}
+
+.dollar {
+    font-size: 32px;
+    color: #ffffff;
+}
+
+.wt {
+    font-size: 16px;
+    color: #757575;
+}
+
+.orange__button__burger {
+    margin: 0;
+    height: 62px;
+    width: 182px;
+    border-radius: 8px;
+    border: none;
+}
+
+.order_burger {
+    width: 100%;
+    margin-left: -190px;
+    position: relative;
+    z-index: 0;
+}
+
+.title__order {
+    font-size: 64px;
+    color: #ffffff;
+    line-height: 130%;
+    letter-spacing: 3%;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.info__order {
+    border-radius: 16px;
+    width: 424px;
+}
+
+.subtitle__order {
+    text-align: center;
+    color: #ffffff;
+    font-size: 24px;
+    padding-bottom: 40px;
+}
+
+.orange__button__order {
+    width: 100%;
+    margin-top: 24px;
+}
+
+input {
+    height: 62px;
+    width: 100%;
+    color: #ffffff;
+    background-color: #211A16;
+    border: 1px solid #DA8625;
+    border-radius: 8px;
+    margin: 24px 0 0;
+}
+
+input::placeholder {
+    font-size: 16px;
+    color: #757575;
+    padding-left: 10px;
 }
